@@ -1,6 +1,9 @@
-from clients.api_client import APIClient
-from httpx import Response
 from typing import TypedDict
+
+from httpx import Response
+
+from clients.api_client import APIClient
+
 
 class LoginRequestDict(TypedDict):
     """
@@ -16,6 +19,10 @@ class RefreshRequestDict(TypedDict):
     refreshToken: str
 
 class AuthenticationClient(APIClient):
+    """
+    Клиент для работы с /api/v1/authentication
+    """
+    
     def login_api(self, request: LoginRequestDict) -> Response:
         """
         Метод выполняет аутентификацию пользователя.
