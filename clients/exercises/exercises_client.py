@@ -24,7 +24,7 @@ class ExercisesClient(APIClient):
         :param query: Словарь с courseId.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get(f"/api/v1/exercises", params=query) # type: ignore
+        return self.get(f"/api/v1/exercises", params=query.model_dump(by_alias=True)) # type: ignore
     
     def get_exercise_api(self, exercise_id: str) -> Response:
         """

@@ -21,7 +21,7 @@ class CoursesClient(APIClient):
         :param query: Словарь с userId.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get("/api/v1/courses", params=query) # type: ignore
+        return self.get("/api/v1/courses", params=query.model_dump(by_alias=True)) # type: ignore
 
     def get_course_api(self, course_id: str) -> Response:
         """
