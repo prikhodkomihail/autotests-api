@@ -9,7 +9,7 @@ from clients.files.files_schema import (CreateFileRequestSchema,
                                         GetFileResponseSchema)
 from fixtures.files import FileFixture
 from tools.assertions.base import assert_status_code
-from tools.assertions.errors import (
+from tools.assertions.files import (
     assert_create_file_with_empty_directory_response,
     assert_create_file_with_empty_filename_response)
 from tools.assertions.files import (assert_create_file_response, assert_file_not_found_response,

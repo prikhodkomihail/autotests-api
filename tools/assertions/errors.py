@@ -36,47 +36,6 @@ def assert_validation_error_response(
         assert_validation_error(actual.details[index], detail)
 
 
-def assert_create_file_with_empty_filename_response(actual: ValidationErrorResponseSchema):
-    """
-    Проверяет, что ответ на создание файла с пустым именем файла соответствует ожидаемой валидационной ошибке.
-
-    :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
-    :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
-    """
-    expected = ValidationErrorResponseSchema(
-        details=[ # type: ignore
-            ValidationErrorSchema(
-                type="string_too_short",
-                input="",
-                context={"min_length": 1},  # type: ignore
-                message="String should have at least 1 character",  # type: ignore
-                location=["body", "filename"]  # type: ignore
-            )
-        ]
-    )
-    assert_validation_error_response(actual, expected)
-
-
-def assert_create_file_with_empty_directory_response(actual: ValidationErrorResponseSchema):
-    """
-    Проверяет, что ответ на создание файла с пустым значением директории соответствует ожидаемой валидационной ошибке.
-
-    :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
-    :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
-    """
-    expected = ValidationErrorResponseSchema(
-        details=[ # type: ignore
-            ValidationErrorSchema(
-                type="string_too_short",
-                input="",
-                context={"min_length": 1},  # type: ignore
-                message="String should have at least 1 character",  # type: ignore
-                location=["body", "directory"]  # type: ignore
-            )
-        ]
-    )
-
-
 def assert_internal_error_response(
         actual: InternalErrorResponseSchema,
         expected: InternalErrorResponseSchema
