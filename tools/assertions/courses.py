@@ -1,4 +1,4 @@
-from clients.courses.courses_schema import (CourseSchema,
+from clients.courses.courses_schema import (CourseSchema, CreateCourseRequestSchema,
                                             CreateCourseResponseSchema,
                                             GetCoursesResponseSchema,
                                             UpdateCourseRequestSchema,
@@ -60,3 +60,23 @@ def assert_get_courses_response(
 
     for index, create_course_response in enumerate(create_course_responses):
         assert_course(get_courses_response.courses[index], create_course_response.course)
+
+
+def assert_create_course_response(
+        response: CreateCourseResponseSchema,
+        request: CreateCourseRequestSchema
+):
+    """
+    Проверяет, что ответ на создание курса соответствует данным из запроса.
+
+    :param request: Исходный запрос на создание курса.
+    :param response: Ответ API с данными созданного курса.
+    :raises AssertionError: Если хотя бы одно поле не совпадает.
+    """
+    assert_equal(response.course.title, request.title, "title")
+    assert_equal(response.course.max_score, request.max_score, "max_score")
+    assert_equal(response.course.min_score, request.min_score, "min_score")
+    assert_equal(response.course.description, request.description, "description")
+    assert_equal(response.course.estimated_time, request.estimated_time, "estimated_time")
+    assert_equal(response.course.preview_file.id, request.preview_file_id, "preview_file_id")
+    assert_equal(response.course.created_by_user.id, request.created_by_user_id, "created_by_user_id")
