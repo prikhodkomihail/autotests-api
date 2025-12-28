@@ -1,4 +1,7 @@
-from clients.courses.courses_schema import (CourseSchema, CreateCourseRequestSchema,
+import allure
+
+from clients.courses.courses_schema import (CourseSchema,
+                                            CreateCourseRequestSchema,
                                             CreateCourseResponseSchema,
                                             GetCoursesResponseSchema,
                                             UpdateCourseRequestSchema,
@@ -8,6 +11,7 @@ from tools.assertions.files import assert_file
 from tools.assertions.users import assert_user
 
 
+@allure.step("Check update course response")
 def assert_update_course_response(
         request: UpdateCourseRequestSchema,
         response: UpdateCourseResponseSchema
@@ -26,6 +30,7 @@ def assert_update_course_response(
     assert_equal(response.course.estimated_time, request.estimated_time, "estimated_time")
 
 
+@allure.step("Check course")
 def assert_course(actual: CourseSchema, expected: CourseSchema):
     """
     Проверяет, что фактические данные курса соответствуют ожидаемым.
@@ -45,6 +50,7 @@ def assert_course(actual: CourseSchema, expected: CourseSchema):
     assert_user(actual.created_by_user, expected.created_by_user)
 
 
+@allure.step("Check get courses response")
 def assert_get_courses_response(
         get_courses_response: GetCoursesResponseSchema,
         create_course_responses: list[CreateCourseResponseSchema]
@@ -62,6 +68,7 @@ def assert_get_courses_response(
         assert_course(get_courses_response.courses[index], create_course_response.course)
 
 
+@allure.step("Check create course response") 
 def assert_create_course_response(
         response: CreateCourseResponseSchema,
         request: CreateCourseRequestSchema
