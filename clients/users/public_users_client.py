@@ -7,6 +7,7 @@ from clients.api_client import APIClient
 from clients.public_http_builder import get_public_http_client
 from clients.users.users_schema import (CreateUserRequestSchema,
                                         CreateUserResponseSchema)
+from tools.routes import APIRoutes
 
 
 class PublicUsersClient(APIClient):
@@ -22,7 +23,7 @@ class PublicUsersClient(APIClient):
         :param request: Словарь с данными пользователя.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post("/api/v1/users", json=request.model_dump(by_alias=True))
+        return self.post(APIRoutes.USERS, json=request.model_dump(by_alias=True))
     
     def create_user(self, request: CreateUserRequestSchema) -> CreateUserResponseSchema:
         response = self.create_user_api(request)
