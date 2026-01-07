@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjI3OjI1LjY4NTgwOCIsInVzZXJfaWQiOiI3YWI2OWEyZi1kZjAzLTQ0OGEtYTVjMi1mN2I0OGM1ZDkzNzkifQ.74BLbMzZb6_Kn-XOr7j21cYqlOmXvS9COpv0YahfQ7I' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Individual central Democrat fine.","maxScore":69,"minScore":18,"description":"Return car nice notice would. Gas spring bar head war. Consider detail boy street model investment.\nBad get use message. Help thus cultural society oil.","estimatedTime":"8 weeks","previewFileId":"d9240185-f6cf-4486-833b-1d1027e63c79","createdByUserId":"7ab69a2f-df03-448a-a5c2-f7b48c5d9379"}'

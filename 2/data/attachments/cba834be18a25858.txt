@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjI3OjI4LjEyNTkwNiIsInVzZXJfaWQiOiJhYjgyMWY2Ny03MDdhLTRjYTQtODYzNC02YzJjZWQ3ZWVkMDAifQ.JJjA7F1ZQSIfvMxMt3wu6DS1vmp9vEUWJBBhojslTPc' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Form during no might include common explain show.","maxScore":54,"minScore":25,"description":"Simple resource statement accept clear management number. Indeed enjoy pressure player old physical.\nCentury ago now garden. To science anything consumer hit without. Car six direction artist.","estimatedTime":"6 weeks","previewFileId":"31be7343-7456-495b-a013-06438e085230","createdByUserId":"ab821f67-707a-4ca4-8634-6c2ced7eed00"}'

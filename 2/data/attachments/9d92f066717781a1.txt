@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjI3OjI4LjczMjY0NCIsInVzZXJfaWQiOiJhZWRiMmUzYi03YTEyLTQ3YjktOTNkMS0wMTFjZjk5NDIxYmEifQ.mhTMXFVHsOkKhcsrdoXGace3E0dQSziLsRXU6fe7yXs' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whatever art rate.","maxScore":85,"minScore":19,"description":"Child forget minute already arrive. Off series safe father set training grow view. Only big entire bring floor keep. Tell yard certainly listen talk bill.","estimatedTime":"10 weeks","previewFileId":"25109bad-ac71-4874-b84a-5f514f50f384","createdByUserId":"aedb2e3b-7a12-47b9-93d1-011cf99421ba"}'

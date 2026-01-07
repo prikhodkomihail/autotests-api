@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjI3OjI3LjQ4NTc4OSIsInVzZXJfaWQiOiJhOWE5MzI1ZC1lZmQ2LTQ4MDUtODM0Yy01ODg3OGMyNTIwZGUifQ.HEBTBd_IjIzVBU8FrmMVkxGQ6OdWQTSaYUVWUEutQqs' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nice ten relate agent thing range.","maxScore":77,"minScore":17,"description":"Traditional writer return official force. Woman whom toward. Art pressure after occur bar ground behind.\nCulture citizen man also within national too. Law black structure audience.","estimatedTime":"3 weeks","previewFileId":"9ff2ce46-6e2f-4c05-8c1b-0d450799d78f","createdByUserId":"a9a9325d-efd6-4805-834c-58878c2520de"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjI3OjI2LjkwNTM5OSIsInVzZXJfaWQiOiI2MDQ0MDc5Yy00ZmJlLTRhYWUtOGY2ZC1hMGMzNjJmZjhlNGUifQ.DIFzmqhLsK-af7dECJYsX9dfDwWjiKnBNcrrQz-5yDQ' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drive test someone though economy design pay.","courseId":"23448a80-166f-4715-951d-826fea70715b","maxScore":70,"minScore":11,"orderIndex":38,"description":"Visit interview book meet. House later far opportunity.\nPlace wall moment rule room huge. Save course guess final image local local. Return through final environment stay entire.","estimatedTime":"10 weeks"}'

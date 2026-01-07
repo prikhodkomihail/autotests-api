@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d21acb44-2d28-4856-b203-11554ba3a3fe' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjI3OjI1LjY4NTgwOCIsInVzZXJfaWQiOiI3YWI2OWEyZi1kZjAzLTQ0OGEtYTVjMi1mN2I0OGM1ZDkzNzkifQ.74BLbMzZb6_Kn-XOr7j21cYqlOmXvS9COpv0YahfQ7I' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trip through concern east next future themselves.","maxScore":57,"minScore":29,"description":"Huge measure information. Technology old letter discussion pass coach compare. My experience certainly street fly once. Some star development movement.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjI3OjI2LjkwNTM5OSIsInVzZXJfaWQiOiI2MDQ0MDc5Yy00ZmJlLTRhYWUtOGY2ZC1hMGMzNjJmZjhlNGUifQ.DIFzmqhLsK-af7dECJYsX9dfDwWjiKnBNcrrQz-5yDQ' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"On us at speak song also tell.","maxScore":53,"minScore":11,"description":"Item floor consider. Low decision machine prevent property. By pass anything work suffer.\nCar fight suggest air case war professional customer. Let choose health. Fear project line one.","estimatedTime":"5 weeks","previewFileId":"f6e4bcd9-0205-4982-8c24-f0b92b7dbeef","createdByUserId":"6044079c-4fbe-4aae-8f6d-a0c362ff8e4e"}'

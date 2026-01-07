@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=32a2e6c9-7583-42be-b587-bdd75ff3f44b
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=32a2e6c9-7583-42be-b587-bdd75ff3f44b
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:127 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:70 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:50 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to c547e2e0-8110-4161-81c3-f7b3b907d718
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to World back offer past wind.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 32a2e6c9-7583-42be-b587-bdd75ff3f44b
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 72
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 10
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 37
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Way wear final. Attorney owner seem weight. Fall big level quickly take star human.
+Off phone middle officer wife arrive indicate single. Seven job policy staff. Represent age most religious.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

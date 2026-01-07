@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjI3OjI1LjEwNTM4MyIsInVzZXJfaWQiOiIxOGZkNDdiOC0zNjQzLTQwNGUtOGNkOC05YTg2NjllMzI3MmYifQ.YorY8B-6Weyefd9fdbPtc5FSPMN6MVqioWXFO7GyxCQ' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Under short behind will his fact theory.","maxScore":74,"minScore":27,"description":"Summer senior such third. Style enjoy wife speak money north level. Election training price similar.\nFish others song buy. For prevent recognize.","estimatedTime":"5 weeks","previewFileId":"8b9d10a8-5d46-4b93-85fa-fe05a3f43386","createdByUserId":"18fd47b8-3643-404e-8cd8-9a8669e3272f"}'

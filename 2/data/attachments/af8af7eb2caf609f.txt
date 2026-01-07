@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjI3OjI2LjI3MjIzNiIsInVzZXJfaWQiOiI1ZjAxOTFlNi0xZTBlLTQzOWItOWZkMS1jODcwZmM0Nzk4ZjEifQ.A_8RxfXJoMbqyzZ5pV1Qs38-mmQVIkFKj-ybOJCP1vo' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Positive machine nice laugh campaign child.","maxScore":96,"minScore":5,"description":"Brother dark happen tonight recently occur yourself night. Wife positive away find international somebody from. Begin white ball staff understand.","estimatedTime":"7 weeks","previewFileId":"a2a5c88f-4da2-4ae2-8f53-363cc9f8073d","createdByUserId":"5f0191e6-1e0e-439b-9fd1-c870fc4798f1"}'
