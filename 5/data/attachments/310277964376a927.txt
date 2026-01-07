@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE5OjU3OjQyLjc4MjIyNSIsInVzZXJfaWQiOiI0ZjhhMmU4OS1jOTMwLTQ3NGMtYmI1NS00MThjMmJjMTQ0MDAifQ.oyz9a77RyWsgg7yRZZ-8rn1S1U83VdZ7I9VeW8U_InY' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Forget class recognize.","maxScore":67,"minScore":4,"description":"Campaign these win skill name anything.\nSecond imagine dream stuff summer voice resource. Life choose scientist maybe true.\nSpecific matter military. Grow so suddenly boy. Next decision bag result.","estimatedTime":"9 weeks","previewFileId":"f169439f-0add-4ad8-841c-48e8a9b73611","createdByUserId":"4f8a2e89-c930-474c-bb55-418c2bc14400"}'

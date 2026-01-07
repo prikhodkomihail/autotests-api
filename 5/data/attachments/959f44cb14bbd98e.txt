@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE5OjU3OjQ1LjQ3NDQyMCIsInVzZXJfaWQiOiJlNWVlZTVjOS03YzRiLTQ5NDMtYmUwNy01MWM4Zjk5MDViYmMifQ.LvL3f02EhW0Htdl06kS6ZXAwU1tKnBzoG7_wNdEV0WM' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Character sometimes major no education.","maxScore":63,"minScore":6,"description":"Through door world today available suggest. Black pass less morning yet fall attorney. Finish than wall.","estimatedTime":"5 weeks","previewFileId":"8759608c-b5ed-4a48-a09c-edbbc4d5e9c0","createdByUserId":"e5eee5c9-7c4b-4943-be07-51c8f9905bbc"}'

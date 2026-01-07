@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/17490ea7-44e1-4635-a016-8da14768bed8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE5OjU3OjQzLjk3NTY4NCIsInVzZXJfaWQiOiI0MTlkOGNiNC0zMTNhLTQ5YTctYTJlMC1hOGRjYTE3ODJlYjQifQ.Wk7wRBakMYgQR1OaWSsJATxZoRx-iPae41L4zbTVxNw' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Season theory reason range series month.","maxScore":62,"minScore":29,"orderIndex":100,"description":"Federal create record natural. West minute wind term ground. Political what walk relate. Body five action computer describe.\nPurpose peace none chair around. Several citizen than choice.","estimatedTime":"1 weeks"}'

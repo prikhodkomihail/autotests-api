@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE5OjU3OjQzLjA1NTU0NCIsInVzZXJfaWQiOiI5MThmYmQ0Mi02MGFkLTRkYzUtYWNiNi1mM2UwODcxNzU2NTIifQ.WGfNMGZEkh_Mkul4D_ZDRi3idP8mJ20o5A4XoqYD6gE' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Food place sport reveal board break.","maxScore":96,"minScore":18,"description":"Buy let present feel certainly law hope religious. As hand draw certainly note huge it. Rate generation treatment save work the.","estimatedTime":"10 weeks","previewFileId":"78f50256-23e4-4a30-9f0b-aaf732d3607b","createdByUserId":"918fbd42-60ad-4dc5-acb6-f3e087175652"}'

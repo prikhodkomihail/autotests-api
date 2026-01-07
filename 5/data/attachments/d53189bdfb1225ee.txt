@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE5OjU3OjQzLjk3NTY4NCIsInVzZXJfaWQiOiI0MTlkOGNiNC0zMTNhLTQ5YTctYTJlMC1hOGRjYTE3ODJlYjQifQ.Wk7wRBakMYgQR1OaWSsJATxZoRx-iPae41L4zbTVxNw' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reach boy better so manager thank movie.","courseId":"51bc895a-1e16-442d-9f76-2d634eb97b58","maxScore":59,"minScore":3,"orderIndex":5,"description":"Culture apply TV the campaign.\nReach property college. Dream trouble audience growth suddenly theory like player. Glass each minute talk.","estimatedTime":"8 weeks"}'

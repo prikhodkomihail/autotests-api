@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE5OjU3OjQ0LjI0ODU2NiIsInVzZXJfaWQiOiI4ZGZjODk2Mi1kYmI3LTQyOGEtODNhNC05NDdkM2E2YTc3NmUifQ.mfnNkBcP4aw3a-OLVjm_irJgff7V99oS7QjlMSxR53Q' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trial know tonight just there group per arm.","maxScore":96,"minScore":18,"description":"Read action inside parent let. Two card pull go husband.\nLaugh again high sport perform suddenly simply. Less should side talk collection. Section yet oil value during.","estimatedTime":"8 weeks","previewFileId":"5909eb87-22f7-4fed-8af3-84f669fc4815","createdByUserId":"8dfc8962-dbb7-428a-83a4-947d3a6a776e"}'

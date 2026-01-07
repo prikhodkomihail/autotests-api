@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE5OjU3OjQzLjk3NTY4NCIsInVzZXJfaWQiOiI0MTlkOGNiNC0zMTNhLTQ5YTctYTJlMC1hOGRjYTE3ODJlYjQifQ.Wk7wRBakMYgQR1OaWSsJATxZoRx-iPae41L4zbTVxNw' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Girl environmental talk activity wind.","maxScore":77,"minScore":19,"description":"Pull reveal its feel question million. Finally item should only wait. Yes instead word none order effort common fact.\nRate more its foreign work main how. Of describe clearly others.","estimatedTime":"10 weeks","previewFileId":"31837754-dfd8-42fd-963e-0d351035c449","createdByUserId":"419d8cb4-313a-49a7-a2e0-a8dca1782eb4"}'
