@@ -19,7 +19,7 @@ jobs:
             - name: Set up Python
               uses: actions/setup-python@v6
               with:
-                python-version: '3.12' 
+                python-version: '3.12'
 
             - name: Clone test server repository
               run: git clone https://github.com/Nikita-Filonov/qa-automation-engineer-api-course.git
@@ -45,6 +45,22 @@ jobs:
             - name: Run API tests with pytest and generate Allure results
               run: |
                 pytest -m regression --alluredir=allure-results --numprocesses 2
+            
+            - name: Upload Allure results artifact
+              uses: actions/upload-artifact@v4
+              with:
+                name: allure-results
+                path: allure-results
+
+    publish-report:
+        needs: run-tests
+        runs-on: ubuntu-latest
+        steps:
+            - name: Download Allure results artifact
+              uses: actions/download-artifact@v4
+              with:
+                name: allure-results
+                path: allure-results
 
             - name: Get Allure history
               uses: actions/checkout@v4
