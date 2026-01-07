@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjUwOjU5LjE3MDk3NCIsInVzZXJfaWQiOiJkNWMyNzI0OS1hZDdkLTQxNWYtYjhhYS0zZDQ5YzExZTU3ODAifQ.tWPvWIhp6RhqekoeNX_wKnIG27RCfm9b7bOdoN2r17Q' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Produce visit sort not chance everything.","maxScore":97,"minScore":19,"description":"Week themselves stuff industry no. Well bank enjoy development attorney bill pressure.\nSound short look state for various. Perform step PM amount.","estimatedTime":"3 weeks","previewFileId":"b88fb394-9e05-4453-b3f3-286dca92a735","createdByUserId":"d5c27249-ad7d-415f-b8aa-3d49c11e5780"}'

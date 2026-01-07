@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjUxOjAwLjU4OTQ5NiIsInVzZXJfaWQiOiI1NWI2N2I5Zi04NzMxLTQ4NzYtYWMzNy1lMTI4NTI1YTIxZTMifQ.24YNAcK7vDwramxGRMIUHVM6wv-W0GteTXkMYb5PNzw' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rather economy big.","maxScore":79,"minScore":22,"description":"Indeed society next PM star fast. To main voice couple water.\nAllow subject bit as. Trade behavior second play fact.\nOccur spring time tree. Camera list admit improve as.","estimatedTime":"6 weeks","previewFileId":"dc669278-febe-4e6f-99d2-b85405cadc04","createdByUserId":"55b67b9f-8731-4876-ac37-e128525a21e3"}'

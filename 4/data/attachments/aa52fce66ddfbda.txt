@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjUxOjAyLjY3MjQ2NyIsInVzZXJfaWQiOiI2ZGNiMzU5Yy04ZWY3LTRjNTYtOGM1Ni1mNmMwYjgxYTIwZjcifQ.GGl_VZdg7wKxgWgOb708pjIMLe2ArVjOYo6M1PgtvpI' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interesting again look government deal option suffer.","maxScore":71,"minScore":20,"description":"Past conference issue public. Must fight couple follow help minute security. Anyone lose want hotel theory commercial appear cause.\nGun rather record Congress not open.","estimatedTime":"5 weeks","previewFileId":"0d02706f-1f00-469d-b788-06b660ddcd72","createdByUserId":"6dcb359c-8ef7-4c56-8c56-f6c0b81a20f7"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjUxOjAxLjc1ODEyOSIsInVzZXJfaWQiOiJiMDEzZjEyZS0wYjNlLTRlYTctYmU0Zi0zNzExZTM1OTNlZDAifQ.D2h-KYdU6HQ9pmCsTxhXTNqqoUpx2zI2SsanRHxPtbU' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Than fund identify air.","courseId":"b1ed6769-9848-4423-bb11-492ab98b0cea","maxScore":87,"minScore":7,"orderIndex":63,"description":"Rock apply house early time. Better win world box general.\nManage guy light foreign question. Wall both run. Wind baby husband later include would.","estimatedTime":"10 weeks"}'

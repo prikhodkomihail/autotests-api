@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjUxOjAyLjk0NTAyNiIsInVzZXJfaWQiOiJhNDQ2YjA4OS04MDYyLTQ1NzQtYmI5My02ZDI2YWJlMjIwNzcifQ.boGjdqKljAsWmq8mdSUbZ79-8A-621g36LXKl4VPbrA' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Instead there attention would feeling could small them.","maxScore":95,"minScore":1,"description":"Seem cultural long your else policy. Place between beat find rate than tend.\nAdult task fly trade hear finish doctor. Movie turn time people.","estimatedTime":"6 weeks","previewFileId":"3c664108-d2bc-4b49-ae2c-c924b53e430d","createdByUserId":"a446b089-8062-4574-bb93-6d26abe22077"}'

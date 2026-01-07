@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjUxOjAzLjg4NDc1MyIsInVzZXJfaWQiOiI0NmViOWQyNS0yNDc0LTQ2YzAtODc4YS03MmNkZWRjYzMwMTkifQ.u6C_-UuUnGPXX0bMdQkRDJ5zE6WDT0cCJPFWaGk3xNg' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Board instead gas Mr.","maxScore":60,"minScore":13,"description":"Range before along. Defense stock toward section music recent. Special necessary center behind true well trouble.","estimatedTime":"6 weeks","previewFileId":"c84a1d49-7770-4705-87f9-e0809bf7e6a1","createdByUserId":"46eb9d25-2474-46c0-878a-72cdedcc3019"}'

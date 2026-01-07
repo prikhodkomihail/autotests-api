@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjUxOjAwLjMxNjA1NyIsInVzZXJfaWQiOiJmYTA4Y2YyZi00YzliLTQwNjYtYjM1NS1lNjFkMzdmMGYzZWUifQ.U7kGWwK0dxpafXcrCiNtPhQb9nsS3OQpxwkNJo4eI8o' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Training article rather kitchen part bill.","maxScore":83,"minScore":18,"description":"Real Congress short only loss follow court. Certain meet watch middle law.\nSystem easy type. Draw position good politics feel yeah month.","estimatedTime":"5 weeks","previewFileId":"c220946a-e445-4c69-bbaa-97759db24bf5","createdByUserId":"fa08cf2f-4c9b-4066-b355-e61d37f0f3ee"}'

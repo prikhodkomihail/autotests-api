@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjUxOjAxLjQ4NDkxMyIsInVzZXJfaWQiOiI0NzgxMGM3Mi1lYTQ2LTRkYzktOGI5NS0wMzFiZWE4ODNhOWIifQ.Aqgfpn34ZKJZlzv5V0TkxBeabgKwDK8cBA1uf9VdZoA' \
+  -H 'content-length: 282' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Store always wide play.","courseId":"bed3b02e-fff3-42d5-8b66-0e5f8bff3cc6","maxScore":84,"minScore":30,"orderIndex":68,"description":"Force sure drive. Certainly there her myself senior.\nResponse while who offer himself prove. Than even mouth.","estimatedTime":"2 weeks"}'

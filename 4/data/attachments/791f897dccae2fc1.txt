@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/80f2e9a6-29ff-4328-936d-f0143ea1d0ec
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses/80f2e9a6-29ff-4328-936d-f0143ea1d0ec
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:29 Check update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Street late entire executive.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 66
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 25
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Possible whose share peace race themselves. Today kind feel PM idea sing behavior myself.
+Next weight face special. Else bring open yeah shake small.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
