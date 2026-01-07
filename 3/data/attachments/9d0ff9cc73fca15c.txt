@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjUwOjIzLjQxODk5OCIsInVzZXJfaWQiOiI2ZTQ5Y2UwMS1iNmQzLTRhYzItYjk4YS0yZWIwYWEwOTMwYjkifQ.SoxwLUhaurbWl83_R_9Z-AGlQKOlcgMYOrMKnULEJ0o' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"During will significant skin.","courseId":"c56452ff-b007-46df-b335-2b6495c95aa6","maxScore":75,"minScore":25,"orderIndex":28,"description":"Listen today scene economic. Billion special tonight billion. Beautiful guess seven computer likely within.\nHouse even half everybody. Us rock her relationship.","estimatedTime":"9 weeks"}'

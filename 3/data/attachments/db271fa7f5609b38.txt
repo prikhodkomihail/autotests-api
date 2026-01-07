@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjUwOjIyLjIzODYwMCIsInVzZXJfaWQiOiI4YmJkNDZkNC01OTUzLTRiOTItYmUwYi1iYjJjN2VhMDdiODAifQ.wHbU4r74LD4gtHNq0Wph_pqmat1Uf-K8rCDYD0Kcifg' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Along a reveal newspaper.","maxScore":91,"minScore":22,"description":"A wrong under billion buy. Particular always pay successful catch. Generation me wait item section.","estimatedTime":"5 weeks","previewFileId":"6fff2ff1-f34b-401d-84f3-676d6882fd42","createdByUserId":"8bbd46d4-5953-4b92-be0b-bb2c7ea07b80"}'

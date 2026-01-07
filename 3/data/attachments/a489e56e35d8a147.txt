@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjUwOjIyLjUxMjE3MyIsInVzZXJfaWQiOiI2NDM4Y2JhYS04ZjAyLTRhNmMtYjkwNC1hMmZjNWYyZTVhZGQifQ.DTAFR942yWsA5Q1-5exZKn7RmuJXu7dQEEcm8tG8huw' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Letter order add she never really.","maxScore":81,"minScore":6,"description":"Build explain him with list. Seek assume deal expect let describe later. Interview approach able party upon. Generation now plant star product.\nExpect air both care. Understand opportunity simply.","estimatedTime":"10 weeks","previewFileId":"56bb0bb2-9c2c-4071-b7ca-b4b8bbdd8dc8","createdByUserId":"6438cbaa-8f02-4a6c-b904-a2fc5f2e5add"}'

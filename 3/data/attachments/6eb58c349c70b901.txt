@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjUwOjIzLjY5MjA0NiIsInVzZXJfaWQiOiI1MzljZDRhNy1lNzM0LTQ5NmMtYmE3MS1lZjUyY2U1YjljYzAifQ.DroOuTggxzQ0wblhK209G9zmXFYXnV6d-NqO1SxP0PY' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Send window major imagine ask mention.","maxScore":85,"minScore":9,"description":"Federal detail security fire much material air. Mind ten beyond. Spring will four idea. Beat policy from produce three able.","estimatedTime":"8 weeks","previewFileId":"b6e890d0-a5d3-4100-99db-6c4939fd1dff","createdByUserId":"539cd4a7-e734-496c-ba71-ef52ce5b9cc0"}'

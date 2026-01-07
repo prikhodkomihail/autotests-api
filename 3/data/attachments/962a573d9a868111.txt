@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjUwOjIxLjA5MDg3MSIsInVzZXJfaWQiOiIxMDdiYjNkOS1hN2Y5LTQxYTgtYjMyZi1iMDA3ZDRkZjI2NWQifQ.mem-USQRRxTzCh4h9-P49zwspG25JcHbjHpjkJ0nYFg' \
+  -H 'content-length: 275' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Much must pass matter.","maxScore":65,"minScore":2,"description":"Face smile a group give. Turn finally benefit space church.","estimatedTime":"8 weeks","previewFileId":"9ac0f279-0665-47fd-8ffd-edd4591de9b8","createdByUserId":"107bb3d9-a7f9-41a8-b32f-b007d4df265d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjUwOjI0LjYxMjY1NiIsInVzZXJfaWQiOiJhYjZjOWJhYi04MjViLTQ4NTktODQwOC0zZGZjZmNiY2RkYmEifQ.QBMPq413jRGJ2X-8BLf_xs9dpvSreDHUR07KKwmtgLs' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Only thus hear consumer church.","maxScore":84,"minScore":30,"description":"Drive second ahead along book. Politics fast situation growth good particularly.\nFoot think every white great still national. Among culture happy care rate. Age yard deal add open modern.","estimatedTime":"8 weeks","previewFileId":"35a69d86-ac7c-4c2b-a67b-d79213ce630c","createdByUserId":"ab6c9bab-825b-4859-8408-3dfcfcbcddba"}'

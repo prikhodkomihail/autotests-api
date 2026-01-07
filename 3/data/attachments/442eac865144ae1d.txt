@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE4OjUwOjI0Ljg4NzMyNCIsInVzZXJfaWQiOiJmYjEwMzkyZC1iZTJiLTRkYjQtYjQ5Ny05NTNmNGZmNzE4NGQifQ.dbSLaELvFsmiHtdGriqahu9EuH7rbxHGAWdRj_8-EUs' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Win edge keep board.","maxScore":56,"minScore":3,"description":"Difficult identify yes interesting recently fast force. Through behavior property various officer customer point. Kid wonder recent sometimes. Street focus yeah history compare goal floor.","estimatedTime":"2 weeks","previewFileId":"a9d3a064-50bd-4092-a7c7-0ac76ab87e47","createdByUserId":"fb10392d-be2b-4db4-b497-953f4ff7184d"}'
