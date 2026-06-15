@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTE1VDE4OjIwOjI4LjQyMjMzMiIsInVzZXJfaWQiOiJhNTVhYzUwYi0wMTIxLTRlZTItOTJlMC05NWM4MjhlYTg1NjAifQ.dClew67Q1jdFaSboEvu3-LqQGNnLW2t6F7q6r9h2HXI' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Run data owner read perhaps cause source.","maxScore":85,"minScore":26,"description":"Memory space station young. Stage part continue. Wife left fly drug door per.\nDiscussion various time somebody pull police. Agree child chair writer.","estimatedTime":"6 weeks","previewFileId":"898ef786-e357-45f3-9c18-0ed77a19d894","createdByUserId":"a55ac50b-0121-4ee2-92e0-95c828ea8560"}'

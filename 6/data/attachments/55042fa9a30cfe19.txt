@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTE1VDE4OjIwOjI1Ljk3NjcwNCIsInVzZXJfaWQiOiJjNzhmMGIyZi00NmU5LTQ2NGMtYTgwMS0wYmRmMWVmZmQ3MzgifQ.BSFkHh7Pv7K8ZJdcoT4QInyVKoidxKiQiyR8FU03yvU' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Center long ago wrong strong meeting.","courseId":"e2d98a07-492a-42b7-b809-13afd5f886eb","maxScore":63,"minScore":26,"orderIndex":18,"description":"Away be interesting modern not perform. Alone give best suddenly today.\nOption save window institution staff center. Listen or rate tax short lawyer marriage.","estimatedTime":"3 weeks"}'

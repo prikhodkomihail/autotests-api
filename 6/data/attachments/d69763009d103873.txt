@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTE1VDE4OjIwOjI1Ljk3NjcwNCIsInVzZXJfaWQiOiJjNzhmMGIyZi00NmU5LTQ2NGMtYTgwMS0wYmRmMWVmZmQ3MzgifQ.BSFkHh7Pv7K8ZJdcoT4QInyVKoidxKiQiyR8FU03yvU' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nation nation social move could.","maxScore":77,"minScore":19,"description":"Approach before here green.\nMoney peace western forget leg child line.\nBegin lose law deep along glass. Key why author always add executive college speech.","estimatedTime":"3 weeks","previewFileId":"cf7e0254-2248-4c0a-a93f-7c0b1ebaf2e5","createdByUserId":"c78f0b2f-46e9-464c-a801-0bdf1effd738"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTE1VDE4OjIwOjI0LjczNTkyMyIsInVzZXJfaWQiOiIwMzE0NmQ0ZS04NzE2LTQ0MTgtYjVmNi1iZjMzODE1OTg5N2YifQ.7mxTfh9z-NHN8dIb-Sf7obxRC_q3Zrx6eESTd-xSj_Y' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Certainly local meeting probably.","maxScore":63,"minScore":12,"description":"Clear size take certainly already seat throw. Responsibility budget deal. Husband including blue federal at ground wonder.\nTeach table room size way necessary job. Major try artist own black.","estimatedTime":"3 weeks","previewFileId":"a7ffa3ce-c85b-43d2-b00a-4460d02c7d54","createdByUserId":"03146d4e-8716-4418-b5f6-bf338159897f"}'

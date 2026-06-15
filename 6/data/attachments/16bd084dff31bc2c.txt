@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTE1VDE4OjIwOjI3LjE4MDYzOSIsInVzZXJfaWQiOiI0Y2Y2NzAxMS1mMzI4LTQzODctYmYwZC0zNDE3NThmYWRiY2QifQ.CSThD6yQMR23S1qpXuFkOvC4qRJiNsutbbnFFHZKB-0' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tough its suggest fact central remain herself trip.","maxScore":63,"minScore":9,"description":"Represent memory way follow.\nArea arm key. Effect according need kid buy sure.\nSingle behavior politics southern data would sure. Prepare a family rock unit.","estimatedTime":"3 weeks","previewFileId":"5ec252a0-6c01-4dbd-9ba4-be050df376ac","createdByUserId":"4cf67011-f328-4387-bf0d-341758fadbcd"}'

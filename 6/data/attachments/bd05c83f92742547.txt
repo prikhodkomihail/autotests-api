@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTE1VDE4OjIwOjI1LjM4Mzc5NSIsInVzZXJfaWQiOiIzYzhiZWIyZS03MTVkLTRiM2MtYjZmYy03MGFhZTc3Y2Y5N2QifQ.lhb1AiGRjPHXI2Evp49wjDvuDzv-ZP9C0PGszrP9x8c' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Member stock term present always game woman.","maxScore":81,"minScore":13,"description":"Become onto race pretty various.\nGeneration beat policy last center teacher. Chair nature anything white strategy number.","estimatedTime":"8 weeks","previewFileId":"6ea08f4c-611f-4a51-af3e-823e1de88e2d","createdByUserId":"3c8beb2e-715d-4b3c-b6fc-70aae77cf97d"}'

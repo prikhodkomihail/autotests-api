@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTE1VDE4OjIwOjI3Ljg0MTI2MSIsInVzZXJfaWQiOiJmYmIzZjhjYi0yODhhLTQ0ZjEtYWQ3OS05YjJkYjBkMTVhM2IifQ.21OvsTrE3uP1QB4ZeJ7p4p0nPSoC-FRKztryGKj24NA' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Population food figure.","maxScore":90,"minScore":19,"description":"Direction attorney research give either deal one. Goal wear red natural religious. Bar tell include artist for early. Collection human serious painting who.","estimatedTime":"3 weeks","previewFileId":"303d615d-3cd6-4c9f-91fc-33513556d9fb","createdByUserId":"fbb3f8cb-288a-44f1-ad79-9b2db0d15a3b"}'
