@@ -198,7 +198,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ### 5. Конфигурация окружения
 
-Создайте или отредактируйте файл `.env` в корне проекта:
+Скопируйте `.env.example` в `.env` и при необходимости измените значения:
 
 ```env
 TEST_DATA.IMAGE_PNG_FILE='./testdata/files/image.png'

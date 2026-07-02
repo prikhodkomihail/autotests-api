@@ -13,3 +13,5 @@ allure-report
 
 .DS_Store
 ./browser-state
+
+.env
