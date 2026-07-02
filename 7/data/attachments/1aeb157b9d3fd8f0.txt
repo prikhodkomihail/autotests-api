@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDIxOjIwOjIzLjQ5NDIxMCIsInVzZXJfaWQiOiIyOWVhZjlhMy1iMDk1LTQ3YTgtOTM2OS1hNTc5ZjFkZGRhYTIifQ.FtEtYIzHSK5s_jjOZKnh9xROV-FLPlNNzJdk4L_QoIY' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Poor performance check hand during usually.","courseId":"7eec5adc-bd6c-4ce1-a1a4-1ec96c22970c","maxScore":93,"minScore":8,"orderIndex":26,"description":"Born feel whole them five kid PM.\nHealth large of without behavior end something. Role north stage catch expert beyond protect.","estimatedTime":"2 weeks"}'

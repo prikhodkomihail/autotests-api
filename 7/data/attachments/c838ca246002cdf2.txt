@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/85e3a710-ddec-4270-8229-b9a0077b9b09' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDIxOjIwOjIxLjM0MDI1MCIsInVzZXJfaWQiOiI1NWZkMzhjOS0yZDEzLTQwNTItYWZhZi1mMmNhMmVmYzQ2ZGEifQ.nPTI_PIqKMfbXJa8a04jlIvT1DoXo5f7Ubor7Wbdo-g' \
+  -H 'content-length: 254' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whatever hear probably election usually rich.","maxScore":69,"minScore":20,"orderIndex":11,"description":"Treat budget stuff prove expect hot. Remember list entire paper recently and indeed. Should claim life toward.","estimatedTime":"9 weeks"}'

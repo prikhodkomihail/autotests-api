@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDIxOjIwOjIxLjM0MDI1MCIsInVzZXJfaWQiOiI1NWZkMzhjOS0yZDEzLTQwNTItYWZhZi1mMmNhMmVmYzQ2ZGEifQ.nPTI_PIqKMfbXJa8a04jlIvT1DoXo5f7Ubor7Wbdo-g' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Next very source each believe.","maxScore":69,"minScore":28,"description":"Summer voice finish. Act just growth trial business everyone kitchen. National edge news short decide choose area across.","estimatedTime":"1 weeks","previewFileId":"c664c815-2200-45b7-855f-513c0ca94606","createdByUserId":"55fd38c9-2d13-4052-afaf-f2ca2efc46da"}'

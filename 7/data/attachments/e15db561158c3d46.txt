@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDIxOjIwOjIyLjI1NTY2OCIsInVzZXJfaWQiOiIyMWU4NmFjZS04ZDkzLTQ4NjQtOTAyYy04NDlmZWZkODk0M2IifQ.J4jzlGCoHCV_p8-z3ipgbr7YjpzOHTiTCAFU7v3QpFw' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Memory behavior side Democrat all same.","maxScore":87,"minScore":15,"description":"City party upon grow. Ever test realize sea dream over. Economic executive camera little resource fund seven.\nMovie recognize physical. Serve against same land culture here.","estimatedTime":"2 weeks","previewFileId":"7ccc826f-26ca-419b-a020-6e0b9d12ef61","createdByUserId":"21e86ace-8d93-4864-902c-849fefd8943b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDIxOjIwOjIxLjA2NTAzOSIsInVzZXJfaWQiOiJmMDA0MmIzMi05ZDQzLTQ5OGUtOTM0MS00YzgwMjk4NzQxZjIifQ.ayqraUR-An5dhQzZ2PT7dAqV9QaeUS745xJEqQFEq9c' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thing onto produce side although hear.","maxScore":68,"minScore":20,"description":"Laugh middle peace try. Government benefit reality stay.\nBlue establish see bit hundred risk put sport. Drive while crime page magazine degree.","estimatedTime":"8 weeks","previewFileId":"f6e6d495-d3b7-4e26-b610-3186ab5ff87f","createdByUserId":"f0042b32-9d43-498e-9341-4c80298741f2"}'

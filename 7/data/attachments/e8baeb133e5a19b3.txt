@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDIxOjIwOjE5Ljg4Mzk1MCIsInVzZXJfaWQiOiJjZTVhNDZlNy1hY2U2LTQ3ZDctODg4MS0wYzgxZTdlYjk4OWYifQ.Evog3R1EFbLu9jU83h-JJETgcBLEgybp0CCvNu28OYs' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Place history save than suffer foot wish.","maxScore":87,"minScore":2,"description":"Bed never receive risk near remember relate. Could network environment. Approach cup long car remain whom Congress.\nAnother send letter into PM figure. Send morning worker return customer thought.","estimatedTime":"8 weeks","previewFileId":"32e618e9-706c-476d-8941-3af9e06a5003","createdByUserId":"ce5a46e7-ace6-47d7-8881-0c81e7eb989f"}'

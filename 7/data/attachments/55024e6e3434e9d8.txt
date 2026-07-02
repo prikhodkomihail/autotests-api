@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDIxOjIwOjIwLjE1ODQ5OCIsInVzZXJfaWQiOiIxNGUzYTE1Zi01MzI2LTRlMjgtOTI3MS1lNzY1M2Y2OTFlNTQifQ.-HePheLQjXtNhtQcjqHNIl7NjLGySyxNbecOAWg6j9c' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"As kitchen who water future attention there.","maxScore":63,"minScore":12,"description":"Impact music chance kitchen fast individual. Civil may live capital east smile type. Prepare defense west Democrat song.","estimatedTime":"8 weeks","previewFileId":"12a8e1d4-3168-4458-aa14-ee171b1e3080","createdByUserId":"14e3a15f-5326-4e28-9271-e7653f691e54"}'

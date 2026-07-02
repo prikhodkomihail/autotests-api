@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/259791af-b574-4f55-8f77-3f4ec99b50eb' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDIxOjIwOjIwLjE1ODQ5OCIsInVzZXJfaWQiOiIxNGUzYTE1Zi01MzI2LTRlMjgtOTI3MS1lNzY1M2Y2OTFlNTQifQ.-HePheLQjXtNhtQcjqHNIl7NjLGySyxNbecOAWg6j9c' \
+  -H 'content-length: 235' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Call back almost yeah society theory.","maxScore":55,"minScore":20,"description":"Employee card lose appear here message. Peace test occur mean.\nCustomer these candidate. Write dinner cover piece.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTAyVDIxOjIwOjIyLjUyOTUyOCIsInVzZXJfaWQiOiI0ZDliZTAwNS1jODlkLTQxNjgtOWFhNC1kNzE0NzkzMzQ5MjMifQ.3phN1jp7r5nNz7QkVJRgySkgEf72duNfc_gcjD3u6-Y' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Return when fall social.","maxScore":65,"minScore":21,"description":"Cold fine agent wall join ground. Another instead nor what arrive should design. Forward city seat understand prevent.","estimatedTime":"9 weeks","previewFileId":"b2d59d55-3066-4453-9a1d-fa6ef0e67e94","createdByUserId":"4d9be005-c89d-4168-9aa4-d71479334923"}'
