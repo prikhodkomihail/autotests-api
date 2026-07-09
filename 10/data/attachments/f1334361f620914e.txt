@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA5VDE1OjA3OjU3LjQ1Mzg4NCIsInVzZXJfaWQiOiIyOWVkOTlkMy02OTZhLTRhNWQtYjEwMy00ZGM1ZmUzMGY1YmQifQ.sfculkLNJnWUaCSau9J7FQItRdOaEBkwsicib8RiaPQ' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Response pay night present however.","maxScore":69,"minScore":3,"description":"Any tell teacher security any nice. Pull those on career. Base deal then inside.\nFive either carry you firm. Rise instead including despite.","estimatedTime":"10 weeks","previewFileId":"3576fe1c-71c9-43cb-82c2-e094415324bc","createdByUserId":"29ed99d3-696a-4a5d-b103-4dc5fe30f5bd"}'

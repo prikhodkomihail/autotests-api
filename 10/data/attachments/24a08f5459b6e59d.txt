@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:92 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Group education test up.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 61
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 27
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Cost chance forward. Prove political program big several break theory everybody. Clear best set Democrat TV food.
+Local how church report big. Possible attorney prepare seem little democratic.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 10 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to 156db3f9-80e6-41cb-b9a5-4a567f9d4068
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to 7f5e4f97-5199-4c76-a235-209860ef5102
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

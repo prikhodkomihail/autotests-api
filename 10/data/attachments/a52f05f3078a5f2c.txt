@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA5VDE1OjA3OjU2LjY5ODM0MiIsInVzZXJfaWQiOiIxM2QzZmEwZC04ZjYzLTQ0YWEtYWM5OC01OTVkZWEzYzRlMzUifQ.reGh3kAWwRgXBtAMbB5SrrEo1zrLXUmeYtpc9oD6NPA' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Director risk consider family land.","courseId":"68b3fa92-d6a6-40ef-b60c-03674c83e7ac","maxScore":69,"minScore":26,"orderIndex":50,"description":"Expect sea truth behavior. Chance under carry agreement discuss occur. Newspaper health line speech police ability.","estimatedTime":"2 weeks"}'

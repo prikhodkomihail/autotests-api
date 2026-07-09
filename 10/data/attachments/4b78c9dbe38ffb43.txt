@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA5VDE1OjA3OjU0LjY5NTg3NCIsInVzZXJfaWQiOiJiNjllYzUzOC1hMTI5LTQ1NDQtOGIwYy02YzdhNzVlYzljNTgifQ.4UgvrGOd29cVJeNlGSuWNkjfX3WD-gAFCCzkoJraFuo' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Resource deal challenge policy north.","maxScore":92,"minScore":23,"description":"Issue stand necessary build them. Perhaps spend kind food someone score president peace. Chance quality eight police. Minute medical understand idea.","estimatedTime":"4 weeks","previewFileId":"e0e2456e-2599-4a66-8b6b-4e68a0a7433b","createdByUserId":"b69ec538-a129-4544-8b0c-6c7a75ec9c58"}'

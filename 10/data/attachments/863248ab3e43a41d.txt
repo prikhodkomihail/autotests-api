@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA5VDE1OjA3OjU1LjM0NzczMCIsInVzZXJfaWQiOiJmMWE1Yjg1Yi1jOTUyLTRiNWItYTVmYS1iNmRkZDkwOTAyYjYifQ.ca9i9z_lZMBmClZWPt653lkeqGc7sygXIGyT0H5vmqg' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"International traditional foreign.","maxScore":66,"minScore":12,"description":"Score raise today change key as position.\nFree manager establish try stay.\nWhen chance across fight future better if. Certainly soon individual common central which can.","estimatedTime":"8 weeks","previewFileId":"d7f0f54a-aa9a-4f4c-9c90-a32cda5afba7","createdByUserId":"f1a5b85b-c952-4b5b-a5fa-b6ddd90902b6"}'

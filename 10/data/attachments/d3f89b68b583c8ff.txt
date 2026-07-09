@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/438f412d-3652-4d63-9531-9a37853308ed' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA5VDE1OjA3OjU0LjY5NTg3NCIsInVzZXJfaWQiOiJiNjllYzUzOC1hMTI5LTQ1NDQtOGIwYy02YzdhNzVlYzljNTgifQ.4UgvrGOd29cVJeNlGSuWNkjfX3WD-gAFCCzkoJraFuo' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Garden window piece place difficult feel my.","maxScore":97,"minScore":13,"description":"Into whole at here exist space for. Threat member food treat father employee.\nTurn trade court there break culture lead. Media though citizen. Front test mean. Bit less brother onto.","estimatedTime":"2 weeks"}'

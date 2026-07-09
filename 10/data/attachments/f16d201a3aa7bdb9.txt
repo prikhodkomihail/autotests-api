@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA5VDE1OjA3OjU2LjA1MzMwNyIsInVzZXJfaWQiOiIyMzBlODMwMi02Zjc1LTQxYmItYTI2Ny00OTIxZTM4NjU5ODgifQ.f4zlbKqDehT_cr-iG-lJTl2yQgl7hVEm_z981GQRouo' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"In who all hair.","courseId":"101584e2-1035-4efd-8609-919bb2609bda","maxScore":61,"minScore":24,"orderIndex":25,"description":"Remember according your history. System medical write all couple Democrat. Explain behind continue south act. Test customer stage your nation.","estimatedTime":"8 weeks"}'

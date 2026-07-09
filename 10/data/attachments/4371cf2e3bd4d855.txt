@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA5VDE1OjA3OjU2LjY5ODM0MiIsInVzZXJfaWQiOiIxM2QzZmEwZC04ZjYzLTQ0YWEtYWM5OC01OTVkZWEzYzRlMzUifQ.reGh3kAWwRgXBtAMbB5SrrEo1zrLXUmeYtpc9oD6NPA' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reflect indeed agent door once.","maxScore":76,"minScore":20,"description":"Certainly wrong man lose out.\nProfessor might customer avoid unit other. Hold stay yard it girl.\nJust admit nation. Budget effect church drop under friend few.","estimatedTime":"2 weeks","previewFileId":"7af9f564-02e5-4100-b814-14ee4475221e","createdByUserId":"13d3fa0d-8f63-44aa-ac98-595dea3c4e35"}'

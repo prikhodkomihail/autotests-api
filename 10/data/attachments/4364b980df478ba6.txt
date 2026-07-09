@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA5VDE1OjA3OjU2LjA1MzMwNyIsInVzZXJfaWQiOiIyMzBlODMwMi02Zjc1LTQxYmItYTI2Ny00OTIxZTM4NjU5ODgifQ.f4zlbKqDehT_cr-iG-lJTl2yQgl7hVEm_z981GQRouo' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Range fund ahead happen region.","maxScore":58,"minScore":23,"description":"Leave factor art. Matter where they card wish.\nOver question do program worker gun. Goal try organization respond. Right myself government article.","estimatedTime":"4 weeks","previewFileId":"dcaa3bf9-1610-4e05-8266-2c837d630b36","createdByUserId":"230e8302-6f75-41bb-a267-4921e3865988"}'

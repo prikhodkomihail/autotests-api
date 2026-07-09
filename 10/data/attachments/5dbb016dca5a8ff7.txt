@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/3dad0a4a-38ab-4d6b-a342-96f007e2acb0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA5VDE1OjA3OjU2LjA1MzMwNyIsInVzZXJfaWQiOiIyMzBlODMwMi02Zjc1LTQxYmItYTI2Ny00OTIxZTM4NjU5ODgifQ.f4zlbKqDehT_cr-iG-lJTl2yQgl7hVEm_z981GQRouo' \
+  -H 'content-length: 288' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prevent yes step.","maxScore":55,"minScore":20,"orderIndex":3,"description":"Behind current hotel study dog thousand south. Local type do along see street kind. Spend summer technology seem boy theory drug.\nSpeak scene add treat. Win man born white.","estimatedTime":"9 weeks"}'

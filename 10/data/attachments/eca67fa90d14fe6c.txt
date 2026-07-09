@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA5VDE1OjA3OjU0LjA0MDE2NyIsInVzZXJfaWQiOiI3ZjVlNGY5Ny01MTk5LTRjNzYtYTIzNS0yMDk4NjBlZjUxMDIifQ.NfWgrLreWpq_4vGgbBVbHl8do5z8cmTdVRb_yQTBGsY' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Group education test up.","maxScore":61,"minScore":27,"description":"Cost chance forward. Prove political program big several break theory everybody. Clear best set Democrat TV food.\nLocal how church report big. Possible attorney prepare seem little democratic.","estimatedTime":"10 weeks","previewFileId":"156db3f9-80e6-41cb-b9a5-4a567f9d4068","createdByUserId":"7f5e4f97-5199-4c76-a235-209860ef5102"}'
